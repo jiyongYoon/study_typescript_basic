@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // 생성되는 js 코드 버전
+    "module": "CommonJS", // 컴파일 할 때 사용할 모듈 옵션
+    "outDir": "dist", // 컴파일된 파일 저장공간
+    "strict": true, // 타입 검사 엄격도
+    "moduleDetection": "force", // 타입스크립트는 모든 파일을 기본적으로 전역 파일(모듈)로 취급함 -> force로 독립 파일(모듈)로 취급
+    "skipLibCheck": true, // 타입 정의 파일(.d.ts 확장자)의 타입 검사를 생략하는 옵션 (@types 버전이 20버전 이상으로 업데이트되면서 특정 라이브러리에서 타입 검사 오류가 발생)
+  },
+  // 컴파일 할 파일 범위
+  "include": [
+    "src"
+  ],
+  // 컴파일 제외할 범위
+  "exclude": [
+
+  ],
+
+}
